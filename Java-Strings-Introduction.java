@@ -10,7 +10,7 @@ public class Solution {
         String B=sc.next();
         System.out.println(A.length()+B.length());
         int a=A.compareTo (B);
-        if(a<0){
+        if(a<=0){
             System.out.println("No");
             }
             else{
@@ -29,4 +29,6 @@ public class Solution {
 }
 
 
-
+//https://www.hackerrank.com/challenges/java-strings-introduction/problem
+//* Converting 'char' array to 'String' and then 'String' to 'char' array.
+//* Converting first letter of String into uppercase

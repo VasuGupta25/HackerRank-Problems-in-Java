@@ -25,7 +25,6 @@ public class Solution {
             String q = String.valueOf(array2);
 
             System.out.println(p+" "+q);
-
     }
 }
 
